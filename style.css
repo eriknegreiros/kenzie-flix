@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+
+}
+
+.kenzieflix {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+
+.tela {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+
+
+h1 {
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+figure {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px transparent solid
+}
+
+figure:hover {
+    border: solid 2px white;
+    transition: 0.2s;
+}
+
+.zoom {
+    max-width: 100%;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+
+.perfil {
+    width: 160px;
+    height: 160px;
+    background-color: #1E1E20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 8px;
+
+}
+
+#imagem {
+    width: 160px;
+    height: 160px;
+}
+
+h2 {
+    color: #9C9C9C;
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    font-family: IBM Plex Sans;
+}
+
+.gerenciar {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+button {
+    width: 206px;
+    height: 50px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
